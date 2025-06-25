@@ -2,7 +2,7 @@
 
 const HeroSection = () => {
     return (
-        <section className="bg-white lg:py-16">
+        <section className="bg-white pb-16 pt-20 lg:pt-40">
             <div className="px-6 md:px-10 lg:px-30 lg:py-6 mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 lg:gap-40">
                 {/* Left Column */}
                 <div className="space-y-6">
@@ -18,25 +18,6 @@ const HeroSection = () => {
                         Get Started
                     </button>
                 </div>
-
-                {/* Right Column with Dotted Background */}
-                {/* <div
-                    className="relative flex justify-center items-center"
-                    style={{
-                        backgroundImage: "url('/dots.png')", // replace with your image path
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                    }}
-                >
-                    <img
-                        src="/hero-img.png" // replace with your actual image path
-                        alt="Online Learning"
-                    // width={688}
-                    // height={500}
-                    // className="lg:w-[688px] lg:h-[480px]"
-                    />
-                </div> */}
                 <div className="relative">
                     <img src="/hero-img.png" alt="Online Learning" />
                 </div>

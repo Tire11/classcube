@@ -13,7 +13,7 @@ const App = () => {
 
       <div className='relative'>
         <div>
-          <img src="/dots.png" alt="Online Learning" className="absolute lg:w-[810px] lg:h-[750px] right-0 opacity-100 z-0" />
+          <img src="/dots.png" alt="Online Learning" className="absolute lg:w-[810px] lg:h-[750px] right-0 opacity-100" />
         </div>
       </div>
       <Navbar />

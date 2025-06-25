@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     return (
-        <nav className="bg-white px-6 md:px-10 lg:px-30 py-6 flex items-center justify-between">
+        <nav className="bg-white px-6 md:px-10 lg:px-30 py-6 flex items-center justify-between fixed left-0 right-0 z-10">
             {/* Logo */}
             <div className="">
                 <img src="/logo.png" alt="Logo" className="w-[96px] h-[24px] lg:h-[45px] lg:w-[184px]" />
