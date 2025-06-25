@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import FeaturesSection from './components/FeaturesSection'
 import TestimonialsSection from './components/Testimonials'
+import FAQ from './components/FAQ'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <DashboardPrev />
       <FeaturesSection />
       <TestimonialsSection />
+      <FAQ />
     </>
   )
 }
