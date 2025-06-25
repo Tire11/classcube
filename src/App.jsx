@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import FeaturesSection from './components/FeaturesSection'
 import TestimonialsSection from './components/Testimonials'
 import FAQ from './components/FAQ'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <FeaturesSection />
       <TestimonialsSection />
       <FAQ />
+      <Footer />
     </>
   )
 }

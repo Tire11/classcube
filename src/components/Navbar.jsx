@@ -18,8 +18,8 @@ const Navbar = () => {
 
             <div className="hidden md:block">
                 {/* Get Started Button */}
-                <button className="bg-[#0C78F1] text-white px-3 py-2 lg:w-[148px] lg:h-[54px] rounded-sm hover:bg-blue-700 text-sm ">
-                    <span className="">Get Started</span>
+                <button className="bg-[#0C78F1] text-white px-3 py-2 lg:w-[148px] lg:h-[54px] rounded-sm hover:bg-blue-700 text-sm cursor-pointer">
+                    <span className="cursor-pointer">Get Started</span>
                 </button>
             </div>
 
