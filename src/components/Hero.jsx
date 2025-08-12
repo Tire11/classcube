@@ -12,10 +12,10 @@ const HeroSection = () => {
                         and Businesses
                     </h1>
                     <p className="text-[16px] font-normal text-[#7A88A0]">
-                        An online learning management system with features that help <br /> institutions and businesses manage online classes using videos, <br /> audio, documents, or live classes.
+                        An online learning management system with features that help <br /> institutions and businesses manage online classes using videos, <br /> audio, documents, or several live classes.
                     </p>
                     <button className="bg-[#0C78F1] text-white w-full h-[40px] lg:w-[139px] lg:h-[44px] rounded-sm hover:bg-blue-700 text-sm font-medium">
-                        Get Started
+                        Get Started.
                     </button>
                 </div>
                 <div className="relative">
